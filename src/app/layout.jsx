@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider>
-          <div className="container">
+          <div className="contain">
             <Navbar />
             {children}
             <Footer />
