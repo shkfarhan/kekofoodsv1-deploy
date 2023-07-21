@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.theme {
+  transition: all 1s ease;
+}
+
+.light {
+  background-color: #f5f4f4;
+  color: #4d8af0;
+}
+
+.dark {
+  background-color: #111;
+  color: white;
+}
+
+.container {
+  max-width: 85.375rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

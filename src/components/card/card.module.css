@@ -1,0 +1,48 @@
+/* *****************************************Product Cards*******************************/
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin: 20px;
+  height: fit-content;
+  position: relative;
+  color: black;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+.category {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: rebeccapurple;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.prodName {
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-color: #3c3ce9;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.prodImg {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 2rem;
+}
